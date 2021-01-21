@@ -1,0 +1,18 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "fktool:entity/in_lava"
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "dimension": "minecraft:overworld",
+      "light": {
+        "light": 15
+      }
+    }
+  }
+]

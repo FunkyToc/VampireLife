@@ -1,0 +1,6 @@
+execute anchored eyes facing entity @p[tag=vampire,predicate=fktool:entity/sneaking] eyes positioned ^ ^ ^ run particle minecraft:block redstone_block ~ ~ ~ 0 0 0 1 1
+execute anchored eyes facing entity @p[tag=vampire,predicate=fktool:entity/sneaking] eyes positioned ^ ^ ^.2 run particle minecraft:block redstone_block ~ ~ ~ 0 0 0 1 1
+execute anchored eyes facing entity @p[tag=vampire,predicate=fktool:entity/sneaking] eyes positioned ^ ^ ^.4 run particle minecraft:block redstone_block ~ ~ ~ 0 0 0 1 1
+execute anchored eyes facing entity @p[tag=vampire,predicate=fktool:entity/sneaking] eyes positioned ^ ^ ^.6 run particle minecraft:block redstone_block ~ ~ ~ 0 0 0 1 1
+execute anchored eyes facing entity @p[tag=vampire,predicate=fktool:entity/sneaking] eyes positioned ^ ^ ^.8 run particle minecraft:block redstone_block ~ ~ ~ 0 0 0 1 1
+execute anchored eyes facing entity @p[tag=vampire,predicate=fktool:entity/sneaking] eyes positioned ^ ^ ^1 run particle minecraft:block redstone_block ~ ~ ~ 0 0 0 1 1

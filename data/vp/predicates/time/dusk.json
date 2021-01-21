@@ -1,0 +1,5 @@
+{
+  "condition": "minecraft:time_check",
+  "value": 12060,
+  "period": 24000
+}

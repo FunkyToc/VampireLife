@@ -1,0 +1,1 @@
+execute if predicate gm:trace_1.16.2 run function gm:trace/trace
