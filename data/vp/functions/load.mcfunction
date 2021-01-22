@@ -4,8 +4,6 @@ scoreboard objectives add VP_DrinkLevel dummy {"text":"DrinkLevel","color":"red"
 scoreboard objectives add VP_Death deathCount {"text":"DeathCount","color":"red"}
 scoreboard objectives setdisplay list VP_Death
 
-
-
 function vp:schedules
 function vp:properties
 
