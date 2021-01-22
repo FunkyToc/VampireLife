@@ -1,8 +1,10 @@
 scoreboard objectives add VP_Options dummy {"text":"VP_Options","color":"red"}
-scoreboard objectives add VP_FoodLevel dummy {"text":"VP_FoodLevel","color":"red"}
+scoreboard objectives add VP_FoodLevel food {"text":"VP_FoodLevel","color":"red"}
 scoreboard objectives add VP_DrinkLevel dummy {"text":"DrinkLevel","color":"red"}
 scoreboard objectives add VP_Death deathCount {"text":"DeathCount","color":"red"}
 scoreboard objectives setdisplay list VP_Death
+
+
 
 function vp:schedules
 function vp:properties

@@ -1,0 +1,16 @@
+{
+  "parent": "vp:eat_any",
+  "criteria": {
+    "bread": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:bread"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vp:systems/bloodbar/food/food_ko_m"
+  }
+}

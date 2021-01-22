@@ -1,0 +1,16 @@
+{
+  "parent": "vp:eat_any",
+  "criteria": {
+    "cooked_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_beef"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vp:systems/bloodbar/food/food_ko_l"
+  }
+}

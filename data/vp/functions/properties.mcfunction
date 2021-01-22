@@ -1,4 +1,4 @@
-### GoreMod Datapack
+### VampireLife Datapack
 ###
 ### Developped by FunkyToc
 ### With love

@@ -1,0 +1,16 @@
+{
+  "parent": "vp:eat_any",
+  "criteria": {
+    "golden_carrot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:golden_carrot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vp:systems/bloodbar/food/food_ko_l"
+  }
+}

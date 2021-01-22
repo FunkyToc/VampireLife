@@ -1,0 +1,1 @@
+effect give @s minecraft:hunger 4 144 true

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "allfood": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {}
+      }
+    }
+  }
+}
