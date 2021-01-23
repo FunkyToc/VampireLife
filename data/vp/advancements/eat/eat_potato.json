@@ -1,0 +1,16 @@
+{
+  "parent": "vp:eat/eat_any",
+  "criteria": {
+    "potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:potato"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vp:systems/bloodbar/food/food_ko_xs"
+  }
+}

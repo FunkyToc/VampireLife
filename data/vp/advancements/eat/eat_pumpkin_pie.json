@@ -1,11 +1,11 @@
 {
-  "parent": "vp:eat_any",
+  "parent": "vp:eat/eat_any",
   "criteria": {
-    "cooked_beef": {
+    "pumpkin_pie": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:cooked_beef"
+          "item": "minecraft:pumpkin_pie"
         }
       }
     }

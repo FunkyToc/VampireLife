@@ -1,0 +1,16 @@
+{
+  "parent": "vp:eat/eat_any",
+  "criteria": {
+    "rabbit_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rabbit_stew"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vp:systems/bloodbar/food/food_ko_l"
+  }
+}

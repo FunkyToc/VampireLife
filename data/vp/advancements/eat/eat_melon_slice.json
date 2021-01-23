@@ -1,0 +1,16 @@
+{
+  "parent": "vp:eat/eat_any",
+  "criteria": {
+    "melon_slice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:melon_slice"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vp:systems/bloodbar/food/food_ko_s"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "vp:eat/eat_any",
+  "criteria": {
+    "chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:chicken"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vp:systems/bloodbar/food/food_ok_xs"
+  }
+}

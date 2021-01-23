@@ -1,0 +1,16 @@
+{
+  "parent": "vp:eat/eat_any",
+  "criteria": {
+    "rotten_flesh": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rotten_flesh"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vp:systems/bloodbar/food/food_ok_s"
+  }
+}

@@ -1,16 +1,16 @@
 {
-  "parent": "vp:eat_any",
+  "parent": "vp:eat/eat_any",
   "criteria": {
-    "apple": {
+    "beetroot_soup": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:apple"
+          "item": "minecraft:beetroot_soup"
         }
       }
     }
   },
   "rewards": {
-    "function": "vp:systems/bloodbar/food/food_ko_s"
+    "function": "vp:systems/bloodbar/food/food_ko_l"
   }
 }

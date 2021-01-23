@@ -7,4 +7,6 @@ execute if score VP_Difficulty VP_Options matches 2 run function vp:systems/bloo
 execute if score VP_Difficulty VP_Options matches 3 run function vp:systems/bloodbar/hunger/18
 execute if score VP_Difficulty VP_Options matches 3 run function vp:systems/bloodbar/poison/2
 
-advancement revoke @s from vp:eat_any
+effect give @s minecraft:nausea 6 0 true
+
+advancement revoke @s from vp:eat/eat_any

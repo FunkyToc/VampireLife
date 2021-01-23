@@ -1,0 +1,18 @@
+{
+  "parent": "vp:eat/eat_any",
+  "criteria": {
+    "cake": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:cake"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vp:systems/bloodbar/food/food_ko_s"
+  }
+}
