@@ -1,1 +1,0 @@
-#execute if entity @e[type=minecraft:area_effect_cloud,tag=gm_trace,distance=...8] if predicate fktool:entity/sneaking run function vp:systems/drinkblood/drink
