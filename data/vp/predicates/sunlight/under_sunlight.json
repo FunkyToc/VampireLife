@@ -1,5 +1,14 @@
 [
   {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "dimension": "minecraft:overworld",
+      "light": {
+        "light": 15
+      }
+    }
+  },
+  {
     "condition": "minecraft:inverted",
     "term": {
       "condition": "minecraft:reference",
@@ -7,12 +16,10 @@
     }
   },
   {
-    "condition": "minecraft:location_check",
-    "predicate": {
-      "dimension": "minecraft:overworld",
-      "light": {
-        "light": 15
-      }
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "vp:sunlight/has_fire_resist"
     }
   }
 ]
