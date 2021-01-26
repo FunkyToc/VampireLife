@@ -2,6 +2,7 @@ execute if score VP_Difficulty VP_Options matches 1 run function vp:systems/bloo
 execute if score VP_Difficulty VP_Options matches 2 run function vp:systems/bloodbar/saturation/2
 execute if score VP_Difficulty VP_Options matches 3 run function vp:systems/bloodbar/saturation/1
 scoreboard players set @s VP_DrinkLevel 0
+scoreboard players add @s VP_VampireXp 10
 xp add @s 1 points
 
 playsound minecraft:entity.wandering_trader.drink_potion player @a[tag=vampire,distance=..6] ~ ~ ~ 3 .8 1

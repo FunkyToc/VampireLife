@@ -1,11 +1,15 @@
 scoreboard objectives add VP_Options dummy {"text":"VP_Options","color":"red"}
+scoreboard objectives add VP_VampireLevel dummy {"text":"VampireLevel","color":"red"}
+scoreboard objectives add VP_VampireXp dummy {"text":"VampireXp","color":"red"}
 scoreboard objectives add VP_FoodLevel food {"text":"VP_FoodLevel","color":"red"}
 scoreboard objectives add VP_DrinkLevel dummy {"text":"VP_DrinkLevel","color":"red"}
 scoreboard objectives add VP_SneakDist minecraft.custom:minecraft.crouch_one_cm {"text":"VP_SneakDist","color":"red"}
 scoreboard objectives add VP_SneakTime dummy {"text":"VP_SneakTime","color":"red"}
-scoreboard objectives add VP_Death deathCount {"text":"VP_DeathCount","color":"red"}
+scoreboard objectives add VP_Death deathCount {"text":"DeathCount","color":"red"}
 
-scoreboard objectives setdisplay list VP_Death
+scoreboard objectives setdisplay list VP_VampireLevel
+
+scoreboard players set #LevelCap VP_VampireXp 1000
 
 function vp:schedules
 function vp:properties
