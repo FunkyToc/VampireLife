@@ -1,7 +1,7 @@
 scoreboard players add @s VP_SneakTime 20
 execute if score @s VP_SneakTime matches 60 run playsound minecraft:particle.soul_escape player @s ~ ~ ~ 10 .5 1
 execute if score @s VP_SneakTime matches 60 run scoreboard players add @s VP_SneakTime 1
-execute if score @s VP_SneakTime matches 60.. run effect give @s minecraft:slowness 1 128 true
+execute if score @s VP_SneakTime matches 60.. run effect give @s[tag=!hungry] minecraft:slowness 1 128 true
 execute if score @s VP_SneakTime matches 60.. run scoreboard players remove @s VP_VampireXp 1
 
 # lvl 0
