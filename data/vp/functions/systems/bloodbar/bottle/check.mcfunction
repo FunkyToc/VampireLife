@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:area_effect_cloud,tag=gm_trace,distance=..1,limit=1] run function vp:systems/bloodbar/bottle/fill
