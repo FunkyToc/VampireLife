@@ -1,0 +1,25 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"vampire\"]}"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "equipment": {
+        "mainhand": {
+          "item": "minecraft:potion",
+          "nbt": "{isBloodPotion:1b}"
+        }
+      }
+    }
+  }
+]
