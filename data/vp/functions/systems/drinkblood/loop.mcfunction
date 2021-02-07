@@ -1,1 +1,1 @@
-execute if predicate fktool:entity/sneaking if entity @e[predicate=vp:drinkblood/blood_type,distance=.01..2,limit=1,sort=nearest] run function vp:systems/drinkblood/drink
+execute if predicate fktool:entity/sneaking positioned ^ ^ ^1 if entity @e[predicate=vp:drinkblood/blood_type,distance=..1,limit=1,sort=nearest] at @s run function vp:systems/drinkblood/drink
