@@ -1,0 +1,1 @@
+attribute @s minecraft:generic.movement_speed modifier add 26061990-0-0-1-002 vp_move_2 0.02 add

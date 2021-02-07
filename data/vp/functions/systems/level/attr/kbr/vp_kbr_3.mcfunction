@@ -1,0 +1,1 @@
+attribute @s minecraft:generic.knockback_resistance modifier add 26061990-0-0-3-003 vp_kbr_3 .6 add
