@@ -1,1 +1,1 @@
-attribute @s minecraft:generic.attack_damage modifier add 26061990-0-0-2-001 vp_move_1 1 add
+attribute @s minecraft:generic.attack_damage modifier add 26061990-0-0-2-001 vp_atk_1 1 add
