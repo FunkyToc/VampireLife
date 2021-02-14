@@ -4,6 +4,12 @@
     "cake": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vp:is_vampire"
+          }
+        ],
         "location": {
           "block": {
             "block": "minecraft:cake"

@@ -4,6 +4,12 @@
     "sweet_berries": {
       "trigger": "minecraft:consume_item",
       "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vp:is_vampire"
+          }
+        ],
         "item": {
           "item": "minecraft:sweet_berries"
         }
