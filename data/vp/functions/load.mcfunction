@@ -12,8 +12,8 @@ scoreboard objectives setdisplay list VP_VampireLevel
 
 scoreboard players set #LevelCap VP_VampireXp 1000
 
-function vp:schedules
 function vp:properties
+function vp:schedules
 
 tellraw @a ["",{"text":"[VampireLife]","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" enabled ! "},{"text":"More infos on "},{"text":"planetcraft.com","color":"dark_purple","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/funkytoc/submissions/data-packs/"}}]
 execute if score McVersion fktool matches ..11499 run tellraw @a ["",{"text":"[VampireLife]","bold":true,"color":"gold"},{"text":" Version 1.14 or inferior detected !","color":"red"}]

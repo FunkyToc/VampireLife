@@ -1,1 +1,1 @@
-execute if entity @s[tag=blood_potion,scores={VP_BloodPotion=1..}] run function vp:systems/ritual/new_vampire
+execute if score CanTransform VP_Options matches 1 if entity @s[tag=blood_potion,scores={VP_BloodPotion=1..}] run function vp:systems/ritual/new_vampire

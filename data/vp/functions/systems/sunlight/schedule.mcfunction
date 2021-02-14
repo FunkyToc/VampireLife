@@ -1,3 +1,3 @@
 execute if predicate vp:time/day as @a[tag=vampire] at @s if predicate vp:sunlight/under_sunlight run function vp:systems/sunlight/burn
 
-schedule function vp:systems/sunlight/schedule 3t replace
+execute if score SunBurn VP_Options matches 1 run schedule function vp:systems/sunlight/schedule 3t replace
