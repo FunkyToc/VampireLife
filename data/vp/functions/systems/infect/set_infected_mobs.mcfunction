@@ -1,0 +1,2 @@
+execute as @e[predicate=vp:infect/infected_mob_type,tag=!vp_tested] run function vp:systems/infect/infected_mob
+execute if entity @e[tag=vp_infected,limit=1] run function vp:systems/infect/infected_particules

@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "dmg": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vp:is_human"
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"vampire_transform\"]}"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vp:infect/infect_chance"
+          }
+        ],
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"vp_infected\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vp:systems/infect/infect"
+  }
+}

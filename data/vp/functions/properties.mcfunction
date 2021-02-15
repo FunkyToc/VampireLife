@@ -60,3 +60,9 @@ scoreboard players set CanTransform VP_Options 1
 # 0 : disabled
 # 1 : enabled
 scoreboard players set DisplaySuntime VP_Options 1
+
+# Infected mobs spawn
+# Fiew zombies might be infected, and infect the player
+# 0 : disabled
+# 1 : enabled
+scoreboard players set InfectedMobs VP_Options 1
