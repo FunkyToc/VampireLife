@@ -1,1 +1,1 @@
-execute rotated ~ 0 run summon bat ^ ^1.6 ^.3 {Tags:["vp_bat"],NoGravity:1b,DeathLootTable:"",NoAI:1b}
+execute rotated ~ 0 run summon bat ^ ^1.6 ^.3 {Tags:["vp_bat","vampire"],NoGravity:1b,DeathLootTable:"",NoAI:1b}

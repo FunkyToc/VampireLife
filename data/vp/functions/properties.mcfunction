@@ -49,11 +49,11 @@ scoreboard players set BloodBottle VP_Options 1
 # 1 : enabled
 scoreboard players set DaySleep VP_Options 1
 
-# Can transform
-# Allow player to drink blood and transform into vampire at midnight
+# Infect potion
+# Allow player to transform himself into vampire by drinking blood at midnight
 # 0 : disabled
 # 1 : enabled
-scoreboard players set CanTransform VP_Options 1
+scoreboard players set InfectPotion VP_Options 0
 
 # Display Sun time
 # Display icons on vampire's screen to warn them about the sun time

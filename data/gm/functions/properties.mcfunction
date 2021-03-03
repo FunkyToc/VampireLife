@@ -25,7 +25,7 @@ scoreboard players set Bleed GM_Options 1
 # Executions particules (on death)
 # 0 : Disable execution
 # 1 : Enable execution
-scoreboard players set Execution GM_Options 0
+scoreboard players set Execution GM_Options 1
 
 # Traces mark (redstone on the ground)
 # 0 : Disable traces

@@ -1,2 +1,2 @@
-execute if entity @a run function gm:loop
-execute unless entity @a if entity @e[type=area_effect_cloud,tag=gm_trace] run function gm:trace/loop
+execute if entity @p run function gm:loop
+execute unless entity @p if entity @e[predicate=gm:entity/aec_trace] run function gm:trace/loop

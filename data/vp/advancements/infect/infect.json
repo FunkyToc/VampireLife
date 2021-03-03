@@ -25,7 +25,7 @@
         ],
         "damage": {
           "source_entity": {
-            "nbt": "{Tags:[\"vp_infected\"]}"
+            "nbt": "{Tags:[\"vampire\"]}"
           }
         }
       }

@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "mob_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "gm:execution/kill_entity"
+  }
+}
