@@ -3,7 +3,7 @@
   "terms": [
     {
       "condition": "minecraft:reference",
-      "name": "vp:is_human"
+      "name": "vp:is_human_player"
     },
     {
       "condition": "minecraft:entity_properties",

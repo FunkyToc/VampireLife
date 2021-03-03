@@ -6,7 +6,7 @@
         "player": [
           {
             "condition": "minecraft:reference",
-            "name": "vp:is_human"
+            "name": "vp:is_human_player"
           },
           {
             "condition": "minecraft:inverted",
@@ -24,6 +24,7 @@
           }
         ],
         "damage": {
+          "blocked": false,
           "source_entity": {
             "nbt": "{Tags:[\"vampire\"]}"
           }
