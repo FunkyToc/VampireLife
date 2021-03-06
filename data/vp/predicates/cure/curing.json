@@ -1,0 +1,24 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "vp:is_vampire"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "vp:sunlight/light_15"
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "VP_FoodLevel": {
+        "min": 0,
+        "max": 0
+      },
+      "VP_Death": {
+        "min": 1,
+        "max": 99
+      }
+    }
+  }
+]

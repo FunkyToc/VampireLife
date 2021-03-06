@@ -1,0 +1,1 @@
+execute if predicate vp:cure/curing run function vp:systems/cure/cure_vampire
