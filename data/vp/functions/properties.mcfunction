@@ -25,6 +25,12 @@ scoreboard players set Difficulty VP_Options 2
 # 1 : enabled
 scoreboard players set SunBurn VP_Options 1
 
+# Water fall
+# Vampire will be pull down in deep waters (>6 blocks)
+# 0 : disabled
+# 1 : enabled
+scoreboard players set WaterFall VP_Options 1
+
 # Batform
 # Vampire can transform into bat and fly around
 # 0 : disabled
@@ -66,3 +72,9 @@ scoreboard players set DisplaySuntime VP_Options 1
 # 0 : disabled
 # 1 : enabled
 scoreboard players set InfectedMobs VP_Options 1
+
+# Sun cure
+# Allow the player to cure from a vampire state to normal (dying hungry under the midday sun)
+# 0 : disabled
+# 1 : enabled
+scoreboard players set SunCure VP_Options 1

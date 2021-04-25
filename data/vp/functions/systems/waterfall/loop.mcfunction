@@ -1,1 +1,1 @@
-execute if predicate fktool:entity/in_water_feet positioned ~ ~-6 ~ if predicate fktool:location/is_water positioned ~ ~2 ~ if predicate fktool:location/is_water positioned ~ ~2 ~ if predicate fktool:location/is_water at @s run function vp:systems/waterfall/pull_down
+execute if predicate vp:waterfall/drown run function vp:systems/waterfall/pull_down

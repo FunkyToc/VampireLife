@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "vehicle": {}
+      }
+    }
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "vp:waterfall/deep_water"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "fktool:entity/in_water_feet"
+  }
+]
