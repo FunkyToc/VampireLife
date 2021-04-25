@@ -1,5 +1,6 @@
 tag @s add batform
-function vp:systems/batmod/unequip
+execute if score McVersion fktool matches ..11699 run function vp:systems/batmod/unequip_1.16
+execute if score McVersion fktool matches 11700.. run function vp:systems/batmod/unequip_1.17
 function vp:systems/batmod/fly/passive
 function vp:systems/batmod/fly/summon
 particle minecraft:smoke ~ ~1 ~ .3 .5 .3 .01 2000
