@@ -5,20 +5,20 @@ execute if score @s VP_SneakTime matches 60.. run effect give @s[tag=!hungry] mi
 execute if score @s VP_SneakTime matches 60.. run scoreboard players remove @s VP_VampireXp 1
 
 # lvl 0
-execute if score @s VP_VampireLevel matches 0..3 if score @s VP_SneakTime matches 60..79 at @e[distance=.1..8,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 5 ~ ~ ~ 2 2 2 1 5 force @s
-execute if score @s VP_VampireLevel matches 0..3 if score @s VP_SneakTime matches 80..99 at @e[distance=.1..16,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 5 ~ ~ ~ 2 2 2 1 5 force @s
-execute if score @s VP_VampireLevel matches 0..3 if score @s VP_SneakTime matches 100..119 at @e[distance=.1..24,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 5 ~ ~ ~ 2 2 2 1 5 force @s
-execute if score @s VP_VampireLevel matches 0..3 if score @s VP_SneakTime matches 120..139 at @e[distance=.1..32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 5 ~ ~ ~ 2 2 2 1 5 force @s
-execute if score @s VP_VampireLevel matches 0 if score @s VP_SneakTime matches 140.. at @e[distance=.1..32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 5 ~ ~ ~ 2 2 2 1 5 force @s
+execute if score @s VP_VampireLevel matches 0..3 if score @s VP_SneakTime matches 60..79 at @e[distance=.1..8,sort=nearest,limit=32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] run function vp:systems/bloodsense/blood_smells_entity
+execute if score @s VP_VampireLevel matches 0..3 if score @s VP_SneakTime matches 80..99 at @e[distance=.1..16,sort=nearest,limit=32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] run function vp:systems/bloodsense/blood_smells_entity
+execute if score @s VP_VampireLevel matches 0..3 if score @s VP_SneakTime matches 100..119 at @e[distance=.1..24,sort=nearest,limit=32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] run function vp:systems/bloodsense/blood_smells_entity
+execute if score @s VP_VampireLevel matches 0..3 if score @s VP_SneakTime matches 120..139 at @e[distance=.1..32,sort=nearest,limit=32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] run function vp:systems/bloodsense/blood_smells_entity
+execute if score @s VP_VampireLevel matches 0 if score @s VP_SneakTime matches 140.. at @e[distance=.1..32,sort=nearest,limit=32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] run function vp:systems/bloodsense/blood_smells_entity
 
 # lvl 1
-execute if score @s VP_VampireLevel matches 1..3 if score @s VP_SneakTime matches 140..159 at @e[distance=.1..40,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 5 ~ ~ ~ 2 2 2 1 5 force @s
-execute if score @s VP_VampireLevel matches 1 if score @s VP_SneakTime matches 160.. at @e[distance=.1..40,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 5 ~ ~ ~ 2 2 2 1 5 force @s
+execute if score @s VP_VampireLevel matches 1..3 if score @s VP_SneakTime matches 140..159 at @e[distance=.1..40,sort=nearest,limit=32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] run function vp:systems/bloodsense/blood_smells_entity
+execute if score @s VP_VampireLevel matches 1 if score @s VP_SneakTime matches 160.. at @e[distance=.1..40,sort=nearest,limit=32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] run function vp:systems/bloodsense/blood_smells_entity
 
 # lvl 2
-execute if score @s VP_VampireLevel matches 2..3 if score @s VP_SneakTime matches 160..179 at @e[distance=.1..48,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 5 ~ ~ ~ 2 2 2 1 5 force @s
-execute if score @s VP_VampireLevel matches 2 if score @s VP_SneakTime matches 180 at @e[distance=.1..48,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 5 ~ ~ ~ 2 2 2 1 5 force @s
+execute if score @s VP_VampireLevel matches 2..3 if score @s VP_SneakTime matches 160..179 at @e[distance=.1..48,sort=nearest,limit=32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] run function vp:systems/bloodsense/blood_smells_entity
+execute if score @s VP_VampireLevel matches 2 if score @s VP_SneakTime matches 180.. at @e[distance=.1..48,sort=nearest,limit=32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] run function vp:systems/bloodsense/blood_smells_entity
 
 # lvl 3
-execute if score @s VP_VampireLevel matches 3..3 if score @s VP_SneakTime matches 180..199 at @e[distance=.1..56,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 5 ~ ~ ~ 2 2 2 1 5 force @s
-execute if score @s VP_VampireLevel matches 3..3 if score @s VP_SneakTime matches 200.. at @e[distance=.1..64,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 5 ~ ~ ~ 2 2 2 1 5 force @s
+execute if score @s VP_VampireLevel matches 3..3 if score @s VP_SneakTime matches 180..199 at @e[distance=.1..56,sort=nearest,limit=32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] run function vp:systems/bloodsense/blood_smells_entity
+execute if score @s VP_VampireLevel matches 3..3 if score @s VP_SneakTime matches 200.. at @e[distance=.1..64,sort=nearest,limit=32,tag=!vp_bitten,predicate=vp:drinkblood/blood_type] run function vp:systems/bloodsense/blood_smells_entity

@@ -13,20 +13,20 @@
 ## CONFIG
 
 # Difficulty
-# Set the difficulty for all the vampire. Affects hunger, blood needs, power ups, vampire level...
-# 1 : Twilight
-# 2 : Vampire
-# 3 : Extinction
+# Set the difficulty for all the vampire. Affects hunger strength, blood needs, blood powerups, vampire skills...
+# 1 : Twilight (play at your own pace)
+# 2 : Vampire (discover the way of the vampire)
+# 3 : Extinction (hunger is too strong, you can't be satisfied)
 scoreboard players set Difficulty VP_Options 2
 
 # Sun burn
 # Vampire will burn on direct sun exposure
-# 0 : disabled
+# 0 : disabled (really?)
 # 1 : enabled
 scoreboard players set SunBurn VP_Options 1
 
 # Batform
-# Vampire can transform into bat
+# Vampire can transform into bat and fly around
 # 0 : disabled
 # 1 : enabled
 scoreboard players set BatForm VP_Options 1

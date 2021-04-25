@@ -1,0 +1,3 @@
+execute if entity @e[limit=1,distance=...1,sort=nearest,predicate=vp:drinkblood/blood_b] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 2 ~ ~ ~ 1 1 1 1 6 force @s
+execute if entity @e[limit=1,distance=...1,sort=nearest,predicate=vp:drinkblood/blood_a] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 3 ~ ~ ~ 2 2 2 1 9 force @s
+execute if entity @e[limit=1,distance=...1,sort=nearest,predicate=vp:drinkblood/blood_s] positioned ~ ~.3 ~ run particle minecraft:dust 0.5 0.05 0.1 4 ~ ~ ~ 3 3 3 1 12 force @s
