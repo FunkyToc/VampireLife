@@ -5,23 +5,11 @@
       "condition": "minecraft:location_check",
       "predicate": {
         "block": {
-          "block": "minecraft:light"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "block": {
-          "block": "minecraft:campfire"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "block": {
-          "block": "minecraft:lantern"
+          "blocks": [
+            "minecraft:light",
+            "minecraft:lantern",
+            "minecraft:campfire"
+          ]
         }
       }
     }

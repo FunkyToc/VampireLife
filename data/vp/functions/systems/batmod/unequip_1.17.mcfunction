@@ -1,4 +1,4 @@
-## require : loot_tables/blocks/yellow_shulker_box
+## require : minecraft:loot_tables/blocks/yellow_shulker_box
 
 # init
 setblock ~ 255 ~ minecraft:yellow_shulker_box
@@ -16,7 +16,7 @@ execute unless entity @s[tag=inventory_full] run data remove storage vp.player.a
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set from storage vp.player.armor armor.feet
 execute unless entity @s[tag=inventory_full] run loot give @s mine ~ 255 ~ iron_pickaxe{drop_contents:1b}
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set value air
-execute unless entity @s[tag=inventory_full] run item entity @s armor.feet replace minecraft:air
+execute unless entity @s[tag=inventory_full] run item replace entity @s armor.feet with air
 
 # legs
 execute unless entity @s[predicate=fktool:entity/inv/onespace_inv_hotbar] run tag @s add inventory_full
@@ -25,7 +25,7 @@ execute unless entity @s[tag=inventory_full] run data remove storage vp.player.a
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set from storage vp.player.armor armor.legs
 execute unless entity @s[tag=inventory_full] run loot give @s mine ~ 255 ~ iron_pickaxe{drop_contents:1b}
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set value air
-execute unless entity @s[tag=inventory_full] run item entity @s armor.legs replace minecraft:air
+execute unless entity @s[tag=inventory_full] run item replace entity @s armor.legs with air
 
 # chest
 execute unless entity @s[predicate=fktool:entity/inv/onespace_inv_hotbar] run tag @s add inventory_full
@@ -34,7 +34,7 @@ execute unless entity @s[tag=inventory_full] run data remove storage vp.player.a
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set from storage vp.player.armor armor.chest
 execute unless entity @s[tag=inventory_full] run loot give @s mine ~ 255 ~ iron_pickaxe{drop_contents:1b}
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set value air
-execute unless entity @s[tag=inventory_full] run item entity @s armor.chest replace minecraft:air
+execute unless entity @s[tag=inventory_full] run item replace entity @s armor.chest with air
 
 # head
 execute unless entity @s[predicate=fktool:entity/inv/onespace_inv_hotbar] run tag @s add inventory_full
@@ -43,7 +43,7 @@ execute unless entity @s[tag=inventory_full] run data remove storage vp.player.a
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set from storage vp.player.armor armor.head
 execute unless entity @s[tag=inventory_full] run loot give @s mine ~ 255 ~ iron_pickaxe{drop_contents:1b}
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set value air
-execute unless entity @s[tag=inventory_full] run item entity @s armor.head replace minecraft:air
+execute unless entity @s[tag=inventory_full] run item replace entity @s armor.head with air
 
 # offhand
 execute unless entity @s[predicate=fktool:entity/inv/onespace_inv_hotbar] run tag @s add inventory_full
@@ -52,7 +52,7 @@ execute unless entity @s[tag=inventory_full] run data remove storage vp.player.a
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set from storage vp.player.armor armor.offhand
 execute unless entity @s[tag=inventory_full] run loot give @s mine ~ 255 ~ iron_pickaxe{drop_contents:1b}
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set value air
-execute unless entity @s[tag=inventory_full] run item entity @s weapon.offhand replace minecraft:air
+execute unless entity @s[tag=inventory_full] run item replace entity @s weapon.offhand with air
 
 # mainhand
 execute unless entity @s[predicate=fktool:entity/inv/onespace_inv_hotbar] run tag @s add inventory_full
@@ -61,7 +61,7 @@ execute unless entity @s[tag=inventory_full] run data remove storage vp.player.a
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set from storage vp.player.armor armor.mainhand
 execute unless entity @s[tag=inventory_full] run loot give @s mine ~ 255 ~ iron_pickaxe{drop_contents:1b}
 execute unless entity @s[tag=inventory_full] run data modify block ~ 255 ~ Items set value air
-execute unless entity @s[tag=inventory_full] run item entity @s weapon.mainhand replace minecraft:air
+execute unless entity @s[tag=inventory_full] run item replace entity @s weapon.mainhand with air
 
 # reset
 tag @s remove inventory_full
